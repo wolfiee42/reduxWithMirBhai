@@ -12,7 +12,6 @@ const TodoContainer = () => {
 
   // from server
   const { data: todos, isLoading, isError } = useGetTodosQuery(undefined);
-  console.log(todos);
 
   return (
     <div>
